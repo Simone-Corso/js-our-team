@@ -47,3 +47,23 @@ const team = [
         profile_image: 'barbara-ramos-graphic-designer.jpg'
     },
 ];
+
+// creo un ciclo for
+
+for (let index = 0; index < team.length; index++) {
+    const team = team [index];
+    
+}
+
+
+/*<article>
+<h1>
+    Name surname
+</h1>
+<h4>
+    role
+</h4>
+<div class="team-image">
+    <img src="" alt="">
+</div>
+</article>/*
