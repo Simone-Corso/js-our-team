@@ -15,4 +15,35 @@ const team = [
         role: 'Founder & CEO'
         profile_image: 'wayne-barnett-founder-ceo.jpg'
     }
+
+    {
+        name: 'Angela Caroll',
+        role: 'Chief Editor'
+        profile_image: 'angela-caroll-chief-editor.jpg'
+
+    }
+
+    {
+        name: 'Walter Gordon',
+        role: 'Office Manager'
+        profile_image: 'walter-gordon-office-manager.jpg'
+    }
+
+    {
+        name: 'Angela Lopez',
+        role: 'Social Media Manager'
+        profile_image: 'angela-lopez-social-media-manager.jpg'
+    }
+
+    {
+        name: 'Scott Estrada',
+        role: 'Developer'
+        profile_image: 'scott-estrada-developer.jpg'
+    }
+
+    {
+        name: 'Barbara Ramos',
+        role: 'Graphic Designer'
+        profile_image: 'barbara-ramos-graphic-designer.jpg'
+    }
 ]
