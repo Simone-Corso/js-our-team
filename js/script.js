@@ -9,7 +9,7 @@
 
 //Creare l’array di oggetti con le informazioni fornite.
 
-const containerElement = document.querySelector('main > section.tema');
+const containerElement = document.querySelector('main > section.team');
 
 const team = [
     {
@@ -53,7 +53,7 @@ const team = [
 // creo un ciclo for
 
 for (let index = 0; index < team.length; index++) {
-    const team = team [index];
+    const teams = team [index];
 
     const teamCardEl = document.createElement('article');
 
