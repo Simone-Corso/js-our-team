@@ -9,6 +9,8 @@
 
 //Creare l’array di oggetti con le informazioni fornite.
 
+const containerElement = document.querySelector('main > section.tema');
+
 const team = [
     {
         name: 'Wayne Barnett',
@@ -52,18 +54,23 @@ const team = [
 
 for (let index = 0; index < team.length; index++) {
     const team = team [index];
+
+    const teamCardEl = document.createElement('article');
+
+    teamCardEl.innerHTML = 
+        
+    `<h1>
+        Name surname
+    </h1>
+    <h4>
+        role
+    </h4>
+    <div class="team-image">
+        <img src="" alt="">
+    </div>`;
+   
+    containerElement.appendChild(teamCardEl);
     
 }
 
 
-/*<article>
-<h1>
-    Name surname
-</h1>
-<h4>
-    role
-</h4>
-<div class="team-image">
-    <img src="" alt="">
-</div>
-</article>/*
