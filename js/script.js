@@ -16,6 +16,7 @@ const team = [
         name: 'Wayne Barnett',
         role: 'Founder & CEO'
         profile_image: 'wayne-barnett-founder-ceo.jpg'
+        console.console.log(team);
     },
 
     {
